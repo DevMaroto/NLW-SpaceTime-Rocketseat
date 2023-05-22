@@ -1,25 +1,11 @@
-import { StatusBar } from 'expo-status-bar'
-import { ImageBackground, Text, TouchableOpacity, View } from 'react-native'
+import { Text, TouchableOpacity, View } from 'react-native'
 import { useRouter } from 'expo-router'
 import * as SecureStore from 'expo-secure-store'
-import { styled } from 'nativewind'
 import { useEffect } from 'react'
 import { makeRedirectUri, useAuthRequest } from 'expo-auth-session'
 
-import {
-  useFonts,
-  Roboto_400Regular,
-  Roboto_700Bold,
-} from '@expo-google-fonts/roboto'
-
-import { BaiJamjuree_700Bold } from '@expo-google-fonts/bai-jamjuree'
-
-import blurBg from '../src/assets/bg-blur.png'
-import Stripes from '../src/assets/stripes.svg'
 import NLWLogo from '../src/assets/nlw-spacetime-logo.svg'
 import { api } from '../src/lib/api'
-
-const StyledStripes = styled(Stripes)
 
 const discovery = {
   authorizationEndpoint: 'https://github.com/login/oauth/authorize',
@@ -30,12 +16,6 @@ const discovery = {
 
 export default function App() {
   const router = useRouter()
-
-  const [hasLoadedFonts] = useFonts({
-    Roboto_400Regular,
-    Roboto_700Bold,
-    BaiJamjuree_700Bold,
-  })
 
   const [, response, signInWithGithub] = useAuthRequest(
     {
@@ -74,23 +54,8 @@ export default function App() {
     }
   }, [response])
 
-  if (!hasLoadedFonts) {
-    return null
-  }
-
-  // eslint-disable-next-line no-lone-blocks
-
-  /* foi colocado px-9 (padding 32px) para dar um respiro da frase nas laterais da tela, em dispositivos menores (2400X1080) vai ter que utilizar padding px-20 galaxy s20 fe */
-
   return (
-    <ImageBackground
-      source={blurBg}
-      className="relative flex-1 items-center bg-gray-900 px-9 py-9"
-      imageStyle={{ position: 'absolute', left: '-100%' }}
-    >
-      {/* como não foi criado com css e sim por uma importação SVG tive que colocar um bottom para posicionar a Stripes (meu dispositivo galaxy s20 fe ficou bom, mas para dispositivos maiores (1080x2400)vai ter que utilizar bottom-2) */}
-      <StyledStripes className="absolute bottom-5 left-2" />
-
+    <View className="flex-1 items-center px-9 py-9">
       <View className="flex-1 items-center justify-center gap-6">
         <NLWLogo />
 
@@ -118,8 +83,6 @@ export default function App() {
       <Text className="text-center font-body text-sm leading-relaxed text-gray-200 ">
         Feito com 💜 no NLW da Rocketseat
       </Text>
-
-      <StatusBar style="light" />
-    </ImageBackground>
+    </View>
   )
 }

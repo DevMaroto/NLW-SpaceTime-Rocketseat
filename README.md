@@ -57,7 +57,7 @@ Acessando a pasta de todos os projetos é preciso baixar os pacotes com o gerenc
 Leia os README.md de cada pasta para executar.
 
 - [Server Backend](https://github.com/DevMaroto/NLW-Setup-2023/tree/Main/SERVER#como-executar)
-- [Mobile](https://github.com/DevMaroto/NLW-Setup-2023/tree/Main/MOBILE)
+- [Mobile](https://github.com/DevMaroto/NLW-SpaceTime-Rocketseat/tree/Main/mobile)
 - [Web](https://github.com/DevMaroto/NLW-Setup-2023/tree/Main/WEB)
 
 

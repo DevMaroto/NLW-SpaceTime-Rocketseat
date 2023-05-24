@@ -52,11 +52,17 @@ O projeto dessa semana foi desenvolvido com as seguintes tecnologias:
 - Dayjs
 - Dotenv
 
-## Como executar
+# Como executar
 Acessando a pasta de todos os projetos é preciso baixar os pacotes com o gerenciador do seu gosto. <br>
 Leia os README.md de cada pasta para executar.
 
-- [Server Backend](https://github.com/DevMaroto/NLW-Setup-2023/tree/Main/SERVER#como-executar)
+
+- # Execute no Server Backend
+- Instale os pacotes com npm install.<br>
+- Execute npx prisma migrate dev para rodar as migrations.<br>
+- Execute npm run dev para iniciar o servidor.<br><br>
+- SE FOR RODAR A VERSÃO WEB COMENTE A VARIAVEL ( MOBILE GITHUB_CLIENT_ID=... E A GITHUB_CLIENT_SECRET=...) E DESCOMENTE A VARIAVEL ( WEB GITHUB_CLIENT_ID=... E A GITHUB_CLIENT_SECRET=...)<br><br>
+- SE FOR RODAR A VERSÃO MOBILE COMENTE A VARIAVEL ( WEB GITHUB_CLIENT_ID=... E A GITHUB_CLIENT_SECRET=...) E DESCOMENTE A VARIAVEL ( MOBILE GITHUB_CLIENT_ID=... E A GITHUB_CLIENT_SECRET=...)<br><br>
 - [Mobile](https://github.com/DevMaroto/NLW-SpaceTime-Rocketseat/tree/Main/mobile)
 - [Web](https://github.com/DevMaroto/NLW-Setup-2023/tree/Main/WEB)
 

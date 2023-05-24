@@ -3,7 +3,7 @@
 
  ## 💻 Sobre o projeto
 <br>
-🚀 Projeto desenvolvido na semana NLW SpaceTime Aniversário de 6 anos da Rockeseat, tanto na web quanto no mobile você pode registrar sua jornada ao longo do tempo e espaço.
+<h2 align="center">🚀 Projeto desenvolvido na semana NLW SpaceTime Aniversário de 6 anos da Rockeseat, tanto na web quanto no mobile você pode registrar sua jornada ao longo do tempo e espaço. 🚀</h2>
 <br><br>
 <p align="center"> 
   <img alt="" src="https://github.com/DevMaroto/NLW-SpaceTime-Rocketseat/blob/Main/Previews/Thumbnail.png">
@@ -41,10 +41,16 @@ O projeto dessa semana foi desenvolvido com as seguintes tecnologias:
 - Next.js
 - Axios
 - Tailwind CSS
-- Expo
+- Native Wind
+- Expo /auth session / constants / crypto / font / image picker / linking / router / secure store / status bar
 - Zod
 - Git e GitHub
 - React Navigation
+- Js cookie
+- jwt decode
+- Eslint
+- Dayjs
+- Dotenv
 
 ## Como executar
 Acessando a pasta de todos os projetos é preciso baixar os pacotes com o gerenciador do seu gosto. <br>

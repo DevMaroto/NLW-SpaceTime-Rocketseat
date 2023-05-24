@@ -61,11 +61,11 @@ Leia os README.md de cada pasta para executar.
 - Instale os pacotes com npm install.<br>
 - Execute npx prisma migrate dev para rodar as migrations.<br>
 - Execute npm run dev para iniciar o servidor.<br><br>
-- 
+
 - SE FOR RODAR A VERSÃO WEB COMENTE A VARIAVEL ( MOBILE GITHUB_CLIENT_ID=... E A GITHUB_CLIENT_SECRET=...) E DESCOMENTE A VARIAVEL ( WEB GITHUB_CLIENT_ID=... E A GITHUB_CLIENT_SECRET=...)<br><br>
 - SE FOR RODAR A VERSÃO MOBILE COMENTE A VARIAVEL ( WEB GITHUB_CLIENT_ID=... E A GITHUB_CLIENT_SECRET=...) E DESCOMENTE A VARIAVEL ( MOBILE GITHUB_CLIENT_ID=... E A GITHUB_CLIENT_SECRET=...)<br><br>
-- ## [README Mobile](https://github.com/DevMaroto/NLW-SpaceTime-Rocketseat/tree/Main/mobile#readme)<br><br>
-- ## [README Web](https://github.com/DevMaroto/NLW-SpaceTime-Rocketseat/tree/Main/web#readme)<br><br>
+- [README Mobile](https://github.com/DevMaroto/NLW-SpaceTime-Rocketseat/tree/Main/mobile#readme)<br>
+- [README Web](https://github.com/DevMaroto/NLW-SpaceTime-Rocketseat/tree/Main/web#readme)
 
 
 
